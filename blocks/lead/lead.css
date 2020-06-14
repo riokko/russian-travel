@@ -4,5 +4,11 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-  padding: 28px 48px 92px;
+  padding: 0 0 92px;
+}
+
+@media screen and (max-width: 640px) {
+  .lead {
+    padding: 0 0 64px;
+  }
 }

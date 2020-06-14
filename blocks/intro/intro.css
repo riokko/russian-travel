@@ -2,3 +2,22 @@
 @import url(./__span-accent/intro__span-accent.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
+
+.intro {
+  max-width: 928px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 970px) {
+  .intro {
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 16px 0;
+  }
+}
