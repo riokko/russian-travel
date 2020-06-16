@@ -6,3 +6,15 @@
 .cover {
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 840px) {
+  .cover {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    padding-bottom: 64px;
+  }
+}
