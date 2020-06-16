@@ -3,7 +3,7 @@
   max-height: 580px;
   width: 100%;
   margin: 0 auto;
-  padding: 8px;
+  padding-bottom: 8px;
   object-fit: cover;
   display: block;
 }

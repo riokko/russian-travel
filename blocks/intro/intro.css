@@ -4,21 +4,28 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-  max-width: 800px;
+  max-width: 984px;
   margin: 0 auto;
   padding-bottom: 92px;
 }
 
+@media screen and (max-width:984px) {
+  .intro {
+    margin: 0 24px 0;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .intro {
-    padding: 0 24px 88px;
+    margin: 0 16px 0;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    padding-bottom: 0 16px 64px;
+    padding-bottom: 64px;
   }
 }
 
