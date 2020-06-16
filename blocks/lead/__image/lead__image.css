@@ -1,8 +1,9 @@
 .lead__image {
-  max-width: 928px;
+  max-width: 984px;
   max-height: 580px;
   width: 100%;
-  margin: 0 auto 8px;
+  margin: 0 auto;
+  padding: 8px;
   object-fit: cover;
   display: block;
 }
