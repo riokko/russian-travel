@@ -2,6 +2,7 @@
   color: white;
   font-size: 18px;
   line-height: 1.22;
+  transition: opacity 200ms ease-in-out;
 }
 
 .place__link:hover {
